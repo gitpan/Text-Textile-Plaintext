@@ -1,6 +1,6 @@
 ---
 name: Text-Textile-Plaintext
-version: 0.100
+version: 0.101
 author:
   - 'Randy J. Ray <rjray@blackperl.com>'
 abstract: 'Convert Textile markup to plain-text, PS or RTF output'
@@ -22,16 +22,16 @@ configure_requires:
 provides:
   App::Textile2x:
     file: lib/App/Textile2x.pm
-    version: 0.100
+    version: 0.101
   Text::Textile::Plaintext:
     file: lib/Text/Textile/Plaintext.pm
-    version: 0.100
+    version: 0.101
   Text::Textile::PostScript:
     file: lib/Text/Textile/PostScript.pm
-    version: 0.100
+    version: 0.101
   Text::Textile::RTF:
     file: lib/Text/Textile/RTF.pm
-    version: 0.100
+    version: 0.101
 generated_by: Module::Build version 0.340201
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
