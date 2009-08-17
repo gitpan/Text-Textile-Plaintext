@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2e52ccc164201d3ba2e5bea861d0a4fb4f50f0a2 Build.PL
+SHA1 6a24e7a14a6c2c1251d8ed0d98e233490aa672c4 ChangeLog
+SHA1 9b0a787f0c53504dbff163cfd187d344bd99ec3c ChangeLog.xml
+SHA1 375a758e31616f3f3248d1c380d1834fa3602c03 MANIFEST
+SHA1 f438e7898b9bf33cb5798e82488210223e627c8c MANIFEST.SKIP
+SHA1 8cd078d224c0c2073a654b3abf27ef18227a9fb1 META.yml
+SHA1 1709477da40f2f59cf7a18ffa9b85d71d2be663c Makefile.PL
+SHA1 1e055782c991d300e055e1c5de5cb9e29d80f2b7 README
+SHA1 958d58b2d3b467f35ad8b25cc15afdfeb720f817 README.textile
+SHA1 0f9c1b59d181dcf47f017655eaa725b175317f0e bin/textile2x
+SHA1 8385faaace3c4e0eee9fe475a04f30c5c58683eb etc/ChangeLogML.xsd
+SHA1 5562dd1b4c76f8f675346d72061e01a1919bb0c0 lib/App/Textile2x.pm
+SHA1 e613c02918fc8bb9a711e8fde97c048b53d67630 lib/Text/Textile/Plaintext.pm
+SHA1 9f48e354f13aa42d10b5cfa9ae889325058b85ed lib/Text/Textile/PostScript.pm
+SHA1 234f572c97262e146743fdeb4599167f40292bcb lib/Text/Textile/RTF.pm
+SHA1 186b842464535cc150e8e8ae681f228c12d543c3 t/00_load.t
+SHA1 9f09733cd3cb1f3bd151637039e62fd4dcd8e844 t/01_pod.t
+SHA1 d495b5ef939096adae32c6f8705e76504a820c8d t/02_pod_coverage.t
+SHA1 84d4f71c70f1dd008cf1d280006c10037405fdfd t/03_meta.t
+SHA1 5bba71a1423280579ef47d22da2b01f3b599ce1f t/04_minimumversion.t
+SHA1 a37b65833b8bf151831eb2c98da9bb7665cb8689 t/05_critic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkqJkdsACgkQ3Cp33jjp81U0HgCfQqxOyIvmsJ1M9mEMKhe20ULw
+K/IAniUFtox8bxFgBY4onpxCNGWixokE
+=uPpd
+-----END PGP SIGNATURE-----
